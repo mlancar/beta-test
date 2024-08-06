@@ -8,7 +8,7 @@ int main(int ac, char **av)
 		return 0;
 	else if (atoi(av[1]) == 1)
 		std::cout << "42" << std::endl;
-	else 
+	else {
 		int nbStar = (2 * atoi(av[1]) + 1) + (atoi(av[1]) * 2 - 4);
 		int nbLine = nbStar;
 		int oddLine = 2;
